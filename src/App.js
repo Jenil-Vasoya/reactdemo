@@ -1,23 +1,21 @@
 import logo from './logo.svg';
+import Greet from './components/Greet';
+import Notjsx from './components/Notjsx';
+import Props from './components/Props';
+import State from './components/State'
+import Parent from './components/Parent'
 import './App.css';
+import NameList from './components/NameList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Greet></Greet>
+      <Notjsx></Notjsx>
+      <Props className="demo"/>
+      <State></State>
+      <Parent></Parent>
+      <NameList></NameList>
     </div>
   );
 }
