@@ -10,6 +10,8 @@ import Form from "./components/Form";
 import ErrorBoundary from "./components/ErrorBoundary";
 import Name from "./components/Name";
 import ClickCounter from "./components/ClickCounter";
+import UserL1 from "./components/UserL1";
+import {UserProvider} from "./components/userContext" ;
 
 function App() {
   return (
@@ -28,6 +30,9 @@ function App() {
         <Name name="demo" />
       </ErrorBoundary>
       <ClickCounter/>
+      <UserProvider value="HiReact">
+      <UserL1/>
+      </UserProvider>
     </div>
   );
 }
