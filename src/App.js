@@ -9,6 +9,7 @@ import NameList from "./components/NameList";
 import Form from "./components/Form";
 import ErrorBoundary from "./components/ErrorBoundary";
 import Name from "./components/Name";
+import ClickCounter from "./components/ClickCounter";
 
 function App() {
   return (
@@ -20,12 +21,13 @@ function App() {
       <Parent></Parent>
       <NameList></NameList>
       <Form></Form>
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <Name name="name" />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
       <ErrorBoundary>
         <Name name="demo" />
       </ErrorBoundary>
+      <ClickCounter/>
     </div>
   );
 }
