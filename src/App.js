@@ -6,6 +6,7 @@ import State from './components/State'
 import Parent from './components/Parent'
 import './App.css';
 import NameList from './components/NameList';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <State></State>
       <Parent></Parent>
       <NameList></NameList>
+      <Form></Form>
     </div>
   );
 }
