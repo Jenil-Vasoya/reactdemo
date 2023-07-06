@@ -12,6 +12,7 @@ import Name from "./components/Name";
 import ClickCounter from "./components/ClickCounter";
 import UserL1 from "./components/UserL1";
 import {UserProvider} from "./components/userContext" ;
+import UserList from "./components/UserList";
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
       <UserProvider value="HiReact">
       <UserL1/>
       </UserProvider>
+
+      <UserList/>
     </div>
   );
 }
