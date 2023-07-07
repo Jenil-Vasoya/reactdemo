@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-function UseHook() {
+function UserState() {
 
     const [count, setCount] = useState(0);
   return (
@@ -12,4 +12,4 @@ function UseHook() {
   )
 }
 
-export default UseHook
+export default UserState

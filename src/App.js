@@ -13,7 +13,8 @@ import ClickCounter from "./components/ClickCounter";
 import UserL1 from "./components/UserL1";
 import {UserProvider} from "./components/userContext" ;
 import UserList from "./components/UserList";
-import UseHook from "./components/UseHook";
+import UserState from "./components/UseState";
+import UserState1 from "./components/UseState1";
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
       <UserL1/>
       </UserProvider>
       <UserList/>
-      <UseHook/>
+      <UserState/>
+      <UserState1></UserState1>
     </div>
   );
 }
