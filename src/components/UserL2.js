@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import UserLF from './UserLF'
+import UserLFHook from './UserLFHook'
 
  class UserL2 extends Component {
   render() {
-    return <UserLF />
+    return <UserLFHook />
   }
 }
 

@@ -7,7 +7,6 @@ function DataFechHook() {
   const [error, setError] = useState("");
   useEffect(() => {
     setError("");
-    const err = "";
 
     axios
       .get(`https://localhost:7010/Mission/Get Mission?MissionId=${id}`)
