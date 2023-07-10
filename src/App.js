@@ -15,6 +15,7 @@ import {UserProvider} from "./components/userContext" ;
 import UserList from "./components/UserList";
 import UserState from "./components/UseState";
 import UserState1 from "./components/UseState1";
+import UseEffect from "./components/UseEffect";
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       </UserProvider>
       <UserList/>
       <UserState/>
-      <UserState1></UserState1>
+      <UserState1/>
+      <UseEffect/>
     </div>
   );
 }
