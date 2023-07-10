@@ -16,6 +16,7 @@ import UserList from "./components/UserList";
 import UserState from "./components/UseState";
 import UserState1 from "./components/UseState1";
 import UseEffect from "./components/UseEffect";
+import DataFechHook from "./components/DataFechHook";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
       <UserState/>
       <UserState1/>
       <UseEffect/>
+      <DataFechHook/>
     </div>
   );
 }
