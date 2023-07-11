@@ -19,6 +19,8 @@ import UseEffect from "./components/UseEffect";
 import DataFechHook from "./components/DataFechHook";
 import UseReducer from "./components/UseReducer";
 import UseCallBackParent from "./components/UseCallBackParent";
+import UseMemoHook from "./components/UseMemoHook";
+import UseRefHook from "./components/UseRefHook";
 
 function App() {
   return (
@@ -47,6 +49,8 @@ function App() {
       <DataFechHook/>
       <UseReducer/>
       <UseCallBackParent/>
+      <UseMemoHook/>
+      <UseRefHook/>
     </div>
   );
 }
